@@ -529,7 +529,6 @@ public class VolumeDialogImpl implements VolumeDialog,
                 Util.setVisOrGone(mMediaOutputScrollView, false);
                 Util.setVisOrGone(mDialogRowsView, true);
             }
->>>>>>> 27002170654... SystemUI: Redesign volume dialog
         }
     }
 
