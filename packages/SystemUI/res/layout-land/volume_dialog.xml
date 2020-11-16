@@ -129,29 +129,9 @@
                 android:id="@+id/odi_captions_tooltip_stub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-<<<<<<< HEAD
-                android:background="@drawable/rounded_bg_bottom_background">
-                <com.android.systemui.statusbar.phone.ExpandableIndicator
-                    android:id="@+id/expandable_indicator"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:clipToPadding="false"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_gravity="right"
-                    android:background="?android:attr/selectableItemBackgroundBorderless"
-                    android:tint="?android:attr/textColorSecondary"
-                    android:contentDescription="@string/accessibility_quick_settings_expand"
-                    android:padding="14dp"
-                    android:rotation="90" />
-            </FrameLayout>
-=======
                 android:layout_marginStart="@dimen/volume_dialog_spacer"
                 android:inflatedId="@+id/odi_captions_tooltip_view"
                 android:layout="@layout/volume_tool_tip_view" />
->>>>>>> 27002170654... SystemUI: Redesign volume dialog
         </LinearLayout>
     </LinearLayout>
 
